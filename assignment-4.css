@@ -1,19 +1,20 @@
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  width:900px;
-  height:30px;
-  font-family:Calibri, seriff;
-  text-align:center;
-  font-weight:bold;
-  }
-
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 900px;
+	height: 30px;
+	font-family: Calibri, seriff;
+	text-align: center;
+	font-weight: bold;
+}
 table#tab tr:nth-child(odd) {
-  background-color: #eee;
+	background-color: #eee;
 }
 table#tab tr:nth-child(even) {
-  background-color: #fff;
+	background-color: #fff;
 }
 table#tab th {
-  background-color: gray;
+	background-color: gray;
 }
